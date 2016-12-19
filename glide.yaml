@@ -1,0 +1,7 @@
+package: github.com/akito0107/cli_sample
+import:
+- package: github.com/codegangsta/cli
+  version: ^1.19.1
+- package: github.com/google/go-querystring
+  subpackages:
+  - query
